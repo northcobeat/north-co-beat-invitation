@@ -347,8 +347,14 @@ export default function App() {
     <img
       src={kitanokobitoLogo}
       alt="北の小人"
-      className="w-[180px] md:w-[260px] h-auto"
+      style={{
+         width: "clamp(280px, 75vw, 660px)",
+         height: "auto",
+         display: "block",
+         margin: "0 auto",
+      }}
     />
+    
   </div>
 
   {/* Memory 01 */}
