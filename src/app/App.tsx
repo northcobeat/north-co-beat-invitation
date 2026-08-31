@@ -26,21 +26,21 @@ import memory17 from "@/imports2/kitanokobito_Session_IMG_5556.JPG";
 import memory18 from "@/imports2/kitanokobito_camera_IMG_2139.jpeg";
 import memory19 from "@/imports2/kitanokobito_IMG_7485_any.jpg";
 import memory20 from "@/imports2/kitanokobito_smile_20250124_223527.jpg";
-import memory21 from "@/imports/kitanokobito_IMG_2651.jpeg";
-import memory22 from "@/imports/kitanokobito_IMG_2651.jpeg";
-import memory23 from "@/imports/kitanokobito_IMG_2651.jpeg";
-import memory24 from "@/imports/kitanokobito_IMG_2651.jpeg";
-import memory25 from "@/imports/kitanokobito_IMG_2651.jpeg";
+import memory21 from "@/imports2/kitanokobito_any_peace.jpeg";
+import memory22 from "@/imports2/kitanokobito_Session_IMG_1295.JPG";
+import memory23 from "@/imports2/kitanokobito_inst_IMG_6717.JPG";
+import memory24 from "@/imports2/kitanokobito_smile_IMG_2502.jpeg";
+import memory25 from "@/imports2/kitanokobito_smile_20250124_215927.jpg";
 import memory26 from "@/imports2/kitanokobito_all_IMG_6443.jpeg";
 import memory27 from "@/imports2/kitanokobito_all_IMG_8829.jpeg";
 import memory28 from "@/imports2/kitanokobito_all_20230617.jpg";
-import memory29 from "@/imports/kitanokobito_IMG_2651.jpeg";
-import memory30 from "@/imports/kitanokobito_IMG_2651.jpeg";
-import memory31 from "@/imports/kitanokobito_IMG_2651.jpeg";
-import memory32 from "@/imports/kitanokobito_IMG_2651.jpeg";
-import memory33 from "@/imports/kitanokobito_IMG_2651.jpeg";
+import memory29 from "@/imports2/kitanokobito_all_IMG_9467.jpeg";
+import memory30 from "@/imports2/kitanokobito_all_IMG_7163.jpeg";
+import memory31 from "@/imports2/kitanokobito_all_IMG_7415.jpeg";
+import memory32 from "@/imports2/kitanokobito_all_IMG_0671.jpeg";
+import memory33 from "@/imports2/kitanokobito_all_IMG_7654.jpeg";
 import memory34 from "@/imports2/kitanokobito_20240727_all.jpeg";
-import memory35 from "@/imports/kitanokobito_IMG_2651.jpeg";
+import memory35 from "@/imports2/kitanokobito_IMG_2651.jpeg";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "./components/ui/accordion";
 
 function useReveal() {
@@ -880,7 +880,7 @@ export default function App() {
   <div className="-mt-1 md:mt-6 flex items-start -gap-5 md:gap-2 px-0 md:px-10">
     <div className="w-[60%]">
       <MemoryFragment
-        src={memory31}
+        src={memory29}
         alt="北の小人のセッション"
         width="100%"
         align="left"
@@ -924,7 +924,7 @@ export default function App() {
       delay={0.08}
       onClick={() =>
         setSelectedMemory({
-          src: memory33,
+          src: memory31,
           alt: "北の小人の音楽の風景",
         })
       }
