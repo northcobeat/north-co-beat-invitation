@@ -114,16 +114,22 @@ function MemoryFragment({
       }}
     >
       <button
-        type="button"
-        onClick={onClick}
-        className="block overflow-hidden transition-transform duration-500 hover:scale-[1.02] active:scale-[0.98]"
-        style={{
-          width,
-          cursor: "zoom-in",
-          background: "transparent",
-          padding: 0,
-          border: "none",
-        }}
+      type="button"
+      onClick={onClick}
+      className="block overflow-hidden transition-transform duration-500 hover:scale-[1.02] active:scale-[0.98]"
+      style={{
+        width,
+        cursor: "zoom-in",
+        background: "transparent",
+        padding: 0,
+        border: "none",
+
+        boxShadow: `
+          0 32px 70px rgba(35, 12, 6, 0.34),
+          0 12px 28px rgba(35, 12, 6, 0.20),
+          0 2px 6px rgba(35, 12, 6, 0.16)
+        `,
+      }}
       >
         <img
           src={src}
@@ -347,18 +353,12 @@ export default function App() {
     <img
       src={kitanokobitoLogo}
       alt="北の小人"
-      style={{
-         width: "clamp(280px, 75vw, 660px)",
-         height: "auto",
-         display: "block",
-         margin: "0 auto",
-      }}
+      className="w-[180px] md:w-[260px] h-auto"
     />
-    
   </div>
 
   {/* Memory 01 */}
-  <div className="px-3 md:px-10">
+  <div className="mt-12 md:mt-18 flex items-start gap-2 md:gap-4 px-3 md:px-10">
     <MemoryFragment
       src={memory01}
       alt="北の小人の夜の記憶"
@@ -938,7 +938,7 @@ export default function App() {
   </div>
 
   {/* Memories 32 + 33 */}
-  <div className="-mt-2 md:mt-7 px-0 md:px-10">
+  <div className="-mt-25 -md:mt-6 px-0 md:px-10">
     <div className="flex items-start -gap-4 md:gap-3">
       <div className="w-[58%]">
         <MemoryFragment
@@ -977,7 +977,7 @@ export default function App() {
   </div>
 
   {/* Memories 34 + 35 */}
-  <div className="-mt-3 md:mt-5 flex items-start -gap-7 md:gap-3 px-0 md:px-10">
+  <div className="-mt-30 -md:mt-6 flex items-start -gap-7 md:gap-3 px-0 md:px-10">
     <div className="w-[66%] pt-8 md:pt-12">
       <MemoryFragment
         src={memory34}
