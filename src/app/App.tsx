@@ -234,7 +234,7 @@ export default function App() {
     <img
       src={headerLogo}
       alt="北の小人"
-      className="w-[70px] md:w-[100px] h-auto"
+      className="w-[50px] md:w-[70px] h-auto"
     />
   </a>
 
