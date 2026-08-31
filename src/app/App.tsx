@@ -920,7 +920,7 @@ export default function App() {
   </div>
 
   {/* Memory 31 */}
-  <div className="-mt-2 md:mt-7 px-0 md:px-10">
+  <div className="-mt-3 md:mt-7 px-0 md:px-10">
     <MemoryFragment
       src={memory31}
       alt="北の小人の音楽の風景"
@@ -938,7 +938,7 @@ export default function App() {
   </div>
 
   {/* Memories 32 + 33 */}
-  <div className="-mt-25 -md:mt-6 px-0 md:px-10">
+  <div className="-mt-6 -md:mt-6 px-0 md:px-10">
     <div className="flex items-start -gap-4 md:gap-3">
       <div className="w-[58%]">
         <MemoryFragment
@@ -977,7 +977,7 @@ export default function App() {
   </div>
 
   {/* Memories 34 + 35 */}
-  <div className="-mt-30 -md:mt-6 flex items-start -gap-7 md:gap-3 px-0 md:px-10">
+  <div className="-mt-7 -md:mt-7 flex items-start -gap-7 md:gap-3 px-0 md:px-10">
     <div className="w-[66%] pt-8 md:pt-12">
       <MemoryFragment
         src={memory34}
