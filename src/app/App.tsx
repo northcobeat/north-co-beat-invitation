@@ -25,7 +25,7 @@ import memory16 from "@/imports2/kitanokobito_solo_IMG_8532.JPG";
 import memory17 from "@/imports2/kitanokobito_Session_IMG_5556.JPG";
 import memory18 from "@/imports2/kitanokobito_camera_IMG_2139.jpeg";
 import memory19 from "@/imports2/kitanokobito_IMG_7485_any.jpg";
-import memory20 from "@/imports/kitanokobito_IMG_2651.jpeg";
+import memory20 from "@/imports2/kitanokobito_smile_20250124_223527.jpg";
 import memory21 from "@/imports/kitanokobito_IMG_2651.jpeg";
 import memory22 from "@/imports/kitanokobito_IMG_2651.jpeg";
 import memory23 from "@/imports/kitanokobito_IMG_2651.jpeg";
