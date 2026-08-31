@@ -358,7 +358,7 @@ export default function App() {
   </div>
 
   {/* Memory 01 */}
-  <div className="mt-12 md:mt-18 flex items-start gap-2 md:gap-4 px-3 md:px-10">
+  <div className="mt-12 md:mt-22 flex items-start gap-2 md:gap-4 px-3 md:px-10">
     <MemoryFragment
       src={memory01}
       alt="北の小人の夜の記憶"
@@ -376,7 +376,7 @@ export default function App() {
 
 
   {/* Memories 02 + 03 */}
-  <div className="mt-10 md:mt-16 flex items-start gap-2 md:gap-4 px-0 md:px-10">
+  <div className="mt-10 md:mt-20 flex items-start gap-2 md:gap-4 px-0 md:px-10">
     <div className="w-[60%]">
       <MemoryFragment
         src={memory02}
@@ -414,7 +414,7 @@ export default function App() {
 
 
   {/* Memories 04 + 05 */}
-  <div className="mt-9 md:mt-12 flex items-start gap-3 md:gap-5 px-0 md:px-10">
+  <div className="mt-9 md:mt-18 flex items-start gap-3 md:gap-5 px-0 md:px-10">
     <div className="w-[48%]">
       <MemoryFragment
         src={memory04}
@@ -452,7 +452,7 @@ export default function App() {
 
 
   {/* Memory 06 */}
-  <div className="mt-8 md:mt-12 px-0 md:px-10">
+  <div className="mt-8 md:mt-16 px-0 md:px-10">
     <MemoryFragment
       src={memory06}
       alt="演奏の記憶"
@@ -471,7 +471,7 @@ export default function App() {
 
 
   {/* Memories 07 + 08 */}
-  <div className="mt-7 md:mt-16 flex items-start gap-2 md:gap-4 px-0 md:px-10">
+  <div className="mt-7 md:mt-14 flex items-start gap-2 md:gap-4 px-0 md:px-10">
     <div className="w-[55%]">
       <MemoryFragment
         src={memory07}
@@ -508,7 +508,7 @@ export default function App() {
 
 
   {/* Memory 09 */}
-  <div className="mt-6 md:mt-16 px-0 md:px-10">
+  <div className="mt-6 md:mt-13 px-0 md:px-10">
     <MemoryFragment
       src={memory09}
       alt="音楽を囲む時間"
@@ -621,7 +621,7 @@ export default function App() {
 
 
   {/* Memories 15 + 16 */}
-  <div className="mt-3 md:mt-16 flex items-start gap-2 md:gap-4 px-0 md:px-10">
+  <div className="mt-3 md:mt-12 flex items-start gap-2 md:gap-4 px-0 md:px-10">
     <div className="w-[38%] pt-6 md:pt-10">
       <MemoryFragment
         src={memory15}
@@ -659,7 +659,7 @@ export default function App() {
 
 
   {/* Memory 17 */}
-  <div className="mt-2 md:mt-16 px-3 md:px-10">
+  <div className="mt-3 md:mt-10 px-3 md:px-10">
     <MemoryFragment
       src={memory17}
       alt="北の小人の集合写真"
@@ -678,7 +678,7 @@ export default function App() {
 
 
   {/* Memories 18 + 19 */}
-  <div className="mt-2 md:mt-16 flex items-start gap-2 md:gap-5 px-0 md:px-10">
+  <div className="mt-2 md:mt-6 flex items-start gap-2 md:gap-5 px-0 md:px-10">
     <div className="w-[65%]">
       <MemoryFragment
         src={memory18}
@@ -716,7 +716,7 @@ export default function App() {
 
 
   {/* Memories 20 + 21 */}
-  <div className="mt-1 md:mt-14 flex items-start -gap-1 md:gap-4 px-0 md:px-10">
+  <div className="mt-1 md:mt-3 flex items-start -gap-1 md:gap-4 px-0 md:px-10">
     <div className="w-[44%] pt-6 md:pt-10">
       <MemoryFragment
         src={memory20}
@@ -753,7 +753,7 @@ export default function App() {
   </div>
 
   {/* Memories 22 + 23 */}
-  <div className="mt-1 md:mt-11 flex items-start gap-0 md:gap-4 px-0 md:px-10">
+  <div className="-mt-1 -md:mt-1 flex items-start gap-0 md:gap-4 px-0 md:px-10">
     <div className="w-[64%]">
       <MemoryFragment
         src={memory22}
@@ -790,7 +790,7 @@ export default function App() {
   </div>
 
   {/* Memories 24 + 25 */}
-  <div className="-mt-1 -md:mt-1 flex items-start gap-0 md:gap-3 px-0 md:px-10">
+  <div className="-mt-3 -md:mt-3 flex items-start gap-0 md:gap-3 px-0 md:px-10">
     <div className="w-[52%]">
       <MemoryFragment
         src={memory24}
@@ -827,7 +827,7 @@ export default function App() {
   </div>
 
   {/* Memories 26 + 27 + 28 */}
-  <div className="-mt-2 -md:mt-2 px-0 md:px-10">
+  <div className="-mt-5 -md:mt-5 px-0 md:px-10">
     <div className="flex items-start gap-2 md:gap-4">
       <div className="w-[38%] pt-6 md:pt-10">
         <MemoryFragment
@@ -864,7 +864,7 @@ export default function App() {
       </div>
     </div>
 
-    <div className="-mt-3 -md:mt-2">
+    <div className="-mt-4 -md:mt-4">
       <MemoryFragment
         src={memory28}
         alt="音楽を楽しむ時間"
@@ -977,7 +977,7 @@ export default function App() {
   </div>
 
   {/* Memories 34 + 35 */}
-  <div className="-mt-9 -md:mt-4 flex items-start -gap-7 md:gap-3 px-0 md:px-10">
+  <div className="-mt-10 -md:mt-10 flex items-start -gap-7 md:gap-3 px-0 md:px-10">
     <div className="w-[66%] pt-8 md:pt-12">
       <MemoryFragment
         src={memory34}
