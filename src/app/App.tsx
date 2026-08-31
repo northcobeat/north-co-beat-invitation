@@ -1,11 +1,12 @@
-import { MapPin, Clock, Calendar, ChevronDown, ArrowUpRight, Music, X } from "lucide-react";
+import { MapPin, Clock, Calendar, ChevronDown, ArrowUpRight, Music, X, Instagram } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
+import headerLogo from "@/imports/Logo_3x.png";
 import heroPhoto from "@/imports/IMG_4361___.jpeg";
 import venueImage from "@/imports/IMG_4351（大）.jpeg";
 import eventPassImage from "@/imports/EventPass.png";
 import rubberBandImage from "@/imports/Rubber_band.png";
 import misangaImage from "@/imports/misangaBand.png";
-import kitanokobitoLogo from"@/imports/Logo_text_3x.png";
+import kitanokobitoLogo from "@/imports/Logo_text_3x.png";
 import memory01 from "@/imports2/kitanokobito_session_IMG_4840.jpeg";
 import memory02 from "@/imports2/kitanokobito_Session.jpg";
 import memory03 from "@/imports2/kitanokobito_inst_IMG_8720.JPG";
@@ -222,21 +223,31 @@ export default function App() {
       }}
     >
       {/* ── Nav ── */}
-      <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between pl-8 pr-5 py-5 mix-blend-normal">
-        <div
-          className="text-xs tracking-[0.25em] text-muted-foreground uppercase"
-          style={{ fontFamily: "'DM Mono', monospace" }}
-        >
-          Live Event 2026
-        </div>
-        <a
-          href="#tickets"
-          className="text-xs tracking-[0.2em] border border-accent text-accent transition-all duration-300 hover:bg-accent hover:text-background px-[20px] py-[8px] text-left"
-          style={{ fontFamily: "'DM Mono', monospace" }}
-        >
-          ご予約
-        </a>
-      </nav>
+<nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between pl-8 pr-5 py-5 mix-blend-normal">
+
+  {/* 北の小人ロゴ：タップでページトップへ */}
+  <a
+    href="#top"
+    className="block transition-opacity duration-300 hover:opacity-80"
+    aria-label="ページトップへ戻る"
+  >
+    <img
+      src={headerLogo}
+      alt="北の小人"
+      className="w-[70px] md:w-[100px] h-auto"
+    />
+  </a>
+
+  {/* ご予約 */}
+  <a
+    href="#tickets"
+    className="text-xs tracking-[0.2em] border border-accent text-accent transition-all duration-300 hover:bg-accent hover:text-background px-[20px] py-[8px] text-left"
+    style={{ fontFamily: "'DM Mono', monospace" }}
+  >
+    ご予約
+  </a>
+
+</nav>
 
       {/* ── Hero ── */}
       <section className="relative h-screen flex flex-col justify-end overflow-hidden" style={{ backgroundColor: "#4A1A0F" }}>
@@ -1458,14 +1469,14 @@ export default function App() {
           </a>
 
           <a
-            href="https://www.instagram.com/kitanokobito"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-muted-foreground hover:text-foreground transition-colors duration-200"
-            aria-label="Instagram"
-          >
-            Instagram
-          </a>
+  href="https://www.instagram.com/kitanokobito"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-muted-foreground hover:text-foreground transition-colors duration-200"
+  aria-label="Instagram"
+>
+  <Instagram size={18} strokeWidth={1.5} />
+</a>
 
         </div>
 
