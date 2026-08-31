@@ -1103,8 +1103,11 @@ export default function App() {
   {/* Meta */}
   <div className="max-w-6xl mx-auto px-10 md:px-20 mt-12 md:mt-16">
     <p
-      className="text-[10px] tracking-[0.3em] text-accent"
-      style={{ fontFamily: "'DM Mono', monospace" }}
+      className="text-sm font-semibold tracking-[0.3em]"
+      style={{ 
+        fontFamily: "'DM Mono', monospace",
+        color: "#5A1F0E"
+       }}
     >
       全席着席鑑賞　·　定員：20名
     </p>
