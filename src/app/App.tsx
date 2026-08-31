@@ -7,6 +7,7 @@ import eventPassImage from "@/imports/EventPass.png";
 import rubberBandImage from "@/imports/Rubber_band.png";
 import misangaImage from "@/imports/misangaBand.png";
 import kitanokobitoLogo from "@/imports/Logo_text_3x.png";
+import memory00 from "@/imports2/IMG_4351.jpeg";
 import memory01 from "@/imports2/kitanokobito_session_IMG_4840.jpeg";
 import memory02 from "@/imports2/kitanokobito_Session.jpg";
 import memory03 from "@/imports2/kitanokobito_inst_IMG_8720.JPG";
@@ -368,6 +369,23 @@ export default function App() {
       className="w-[180px] md:w-[260px] h-auto"
     />
   </div>
+
+  {/* ── Memory 00 ── */}
+<div className="mt-16 md:mt-[6.5rem] flex items-start gap-2 md:gap-4 px-3 md:px-10">
+  <MemoryFragment
+    src={memory00}
+    alt="北の小人開場前"
+    width="65%"
+    align="left"
+    rotate={1.5}
+    onClick={() =>
+      setSelectedMemory({
+        src: memory00,
+        alt: "北の小人開場前",
+      })
+    }
+  />
+</div>
 
   {/* Memory 01 */}
   <div className="mt-12 md:mt-22 flex items-start gap-2 md:gap-4 px-3 md:px-10">
