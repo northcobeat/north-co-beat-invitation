@@ -1,48 +1,48 @@
 import { MapPin, Clock, Calendar, ChevronDown, ArrowUpRight, Music, X, Instagram } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import headerLogo from "@/imports/Logo_3x.png";
-import heroPhoto from "@/imports/IMG_4361___.jpeg";
-import venueImage from "@/imports/IMG_4351（大）.jpeg";
+import heroPhoto from "@/imports/IMG_4361.jpeg";
+import venueImage from "@/imports/IMG_4351.jpeg";
 import eventPassImage from "@/imports/EventPass.png";
 import rubberBandImage from "@/imports/Rubber_band.png";
 import misangaImage from "@/imports/misangaBand.png";
 import kitanokobitoLogo from "@/imports/Logo_text_3x.png";
-import memory00 from "@/imports2/IMG_4351.jpeg";
-import memory01 from "@/imports2/kitanokobito_session_IMG_4840.jpeg";
-import memory02 from "@/imports2/kitanokobito_Session.jpg";
-import memory03 from "@/imports2/kitanokobito_inst_IMG_8720.JPG";
-import memory04 from "@/imports2/kitanokobito_solo_IMG_6731.JPG";
-import memory05 from "@/imports2/kitanokobito_Session_202311_1.jpeg";
-import memory06 from "@/imports2/kitanokobito_session_S__5128502.jpg";
-import memory07 from "@/imports2/kitanokobito_session_202402_2.jpeg";
-import memory08 from "@/imports2/kitanokobito_solo_IMG_7628.jpg";
-import memory09 from "@/imports2/kitanokobito_Session_20240217_3.jpeg";
-import memory10 from "@/imports2/kitanokobito_20240315_solo.JPG";
-import memory11 from "@/imports2/kitanokobito_IMG_6861_solo.jpeg";
-import memory12 from "@/imports2/kitanokobito_Session_2024-12-07.jpg";
-import memory13 from "@/imports2/kitanokobito_IMG_7776_solo.jpg";
-import memory14 from "@/imports2/kitanokobito_inst_2026-07-04.JPG";
-import memory15 from "@/imports2/kitanokobito_inst_IMG_1277.jpeg";
-import memory16 from "@/imports2/kitanokobito_solo_IMG_8532.JPG";
-import memory17 from "@/imports2/kitanokobito_Session_IMG_5556.JPG";
-import memory18 from "@/imports2/kitanokobito_camera_IMG_2139.jpeg";
-import memory19 from "@/imports2/kitanokobito_IMG_7485_any.jpg";
-import memory20 from "@/imports2/kitanokobito_smile_20250124_223527.jpg";
-import memory21 from "@/imports2/kitanokobito_any_peace.jpeg";
-import memory22 from "@/imports2/kitanokobito_Session_IMG_1295.JPG";
-import memory23 from "@/imports2/kitanokobito_inst_IMG_6717.JPG";
-import memory24 from "@/imports2/kitanokobito_smile_IMG_2502.jpeg";
-import memory25 from "@/imports2/kitanokobito_smile_20250124_215927.jpg";
-import memory26 from "@/imports2/kitanokobito_all_IMG_6443.jpeg";
-import memory27 from "@/imports2/kitanokobito_all_IMG_8829.jpeg";
-import memory28 from "@/imports2/kitanokobito_all_20230617.jpg";
-import memory29 from "@/imports2/kitanokobito_all_IMG_9467.jpeg";
-import memory30 from "@/imports2/kitanokobito_all_IMG_7163.jpeg";
-import memory31 from "@/imports2/kitanokobito_all_IMG_7415.jpeg";
-import memory32 from "@/imports2/kitanokobito_all_IMG_0671.jpeg";
-import memory33 from "@/imports2/kitanokobito_all_IMG_7654.jpeg";
-import memory34 from "@/imports2/kitanokobito_20240727_all.jpeg";
-import memory35 from "@/imports2/kitanokobito_IMG_2651.jpeg";
+import memory00 from "@/imports2/IMG_4351_m.jpeg";
+import memory01 from "@/imports2/kitanokobito_session_IMG_4840_m.jpeg";
+import memory02 from "@/imports2/kitanokobito_Session_m.jpeg";
+import memory03 from "@/imports2/kitanokobito_inst_IMG_8720_m.jpeg";
+import memory04 from "@/imports2/kitanokobito_solo_IMG_6731_m.jpeg";
+import memory05 from "@/imports2/kitanokobito_Session_202311_1_m.jpeg";
+import memory06 from "@/imports2/kitanokobito_session_S__5128502_m.jpeg";
+import memory07 from "@/imports2/kitanokobito_session_202402_2_m.jpeg";
+import memory08 from "@/imports2/kitanokobito_solo_IMG_7628_m.jpeg";
+import memory09 from "@/imports2/kitanokobito_Session_20240217_3_m.jpeg";
+import memory10 from "@/imports2/kitanokobito_20240315_solo_m.jpeg";
+import memory11 from "@/imports2/kitanokobito_IMG_6861_solo_m.jpeg";
+import memory12 from "@/imports2/kitanokobito_Session_2024-12-07_m.jpg";
+import memory13 from "@/imports2/kitanokobito_IMG_7776_solo_m.jpeg";
+import memory14 from "@/imports2/kitanokobito_inst_2026-07-04_m.jpeg";
+import memory15 from "@/imports2/kitanokobito_inst_IMG_1277_m.jpeg";
+import memory16 from "@/imports2/kitanokobito_solo_IMG_8532_m.jpeg";
+import memory17 from "@/imports2/kitanokobito_Session_IMG_5556_m.jpeg";
+import memory18 from "@/imports2/kitanokobito_camera_IMG_2139_m.jpeg";
+import memory19 from "@/imports2/kitanokobito_IMG_7485_any_m.jpeg";
+import memory20 from "@/imports2/kitanokobito_smile_20250124_223527_m.jpeg";
+import memory21 from "@/imports2/kitanokobito_any_peace_m.jpeg";
+import memory22 from "@/imports2/kitanokobito_Session_IMG_1295_m.jpeg";
+import memory23 from "@/imports2/kitanokobito_inst_IMG_6717_m.jpeg";
+import memory24 from "@/imports2/kitanokobito_smile_IMG_2502_m.jpeg";
+import memory25 from "@/imports2/kitanokobito_smile_20250124_215927_m.jpeg";
+import memory26 from "@/imports2/kitanokobito_all_IMG_6443_m.jpeg";
+import memory27 from "@/imports2/kitanokobito_all_IMG_8829_m.jpeg";
+import memory28 from "@/imports2/kitanokobito_all_20230617_l.jpeg";
+import memory29 from "@/imports2/kitanokobito_all_IMG_9467_m.jpeg";
+import memory30 from "@/imports2/kitanokobito_all_IMG_7163_m.jpeg";
+import memory31 from "@/imports2/kitanokobito_all_IMG_7415_m.jpeg";
+import memory32 from "@/imports2/kitanokobito_all_IMG_0671_m.jpeg";
+import memory33 from "@/imports2/kitanokobito_all_IMG_7654_m.jpeg";
+import memory34 from "@/imports2/kitanokobito_20240727_all_m.jpeg";
+import memory35 from "@/imports2/kitanokobito_IMG_2651_m.jpeg";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "./components/ui/accordion";
 
 function useReveal() {
@@ -102,7 +102,7 @@ function MemoryFragment({
   return (
     <div
       ref={ref}
-      className="flex"
+      className="flex w-full"
       style={{
         justifyContent,
         opacity: visible ? 1 : 0,
@@ -136,6 +136,8 @@ function MemoryFragment({
         <img
           src={src}
           alt={alt}
+          loading="lazy"
+          decoding="async"
           className="block w-full h-auto"
           style={{
             filter: "brightness(0.78) saturate(0.82) contrast(0.92) blur(0.35px)",
@@ -375,7 +377,7 @@ export default function App() {
   <MemoryFragment
     src={memory00}
     alt="北の小人開場前"
-    width="65%"
+    width="60%"
     align="left"
     rotate={1.5}
     onClick={() =>
@@ -388,11 +390,11 @@ export default function App() {
 </div>
 
   {/* Memory 01 */}
-  <div className="mt-12 md:mt-22 flex items-start gap-2 md:gap-4 px-3 md:px-10">
+  <div className="mt-12 md:mt-22 flex items-start justify-center gap-2 md:gap-0 px-3 md:px-10 translate-x-[5%]">
     <MemoryFragment
       src={memory01}
       alt="北の小人の夜の記憶"
-      width="58%"
+      width="60%"
       align="right"
       rotate={-1.8}
       onClick={() =>
@@ -482,7 +484,7 @@ export default function App() {
 
 
   {/* Memory 06 */}
-  <div className="mt-8 md:mt-16 px-0 md:px-10">
+  <div className="mt-8 md:mt-16 px-0 md:px-10 translate-x-[-10%]">
     <MemoryFragment
       src={memory06}
       alt="演奏の記憶"
@@ -538,7 +540,7 @@ export default function App() {
 
 
   {/* Memory 09 */}
-  <div className="mt-6 md:mt-13 px-0 md:px-10">
+  <div className="mt-6 md:mt-13 px-0 md:px-10 translate-x-[5%]">
     <MemoryFragment
       src={memory09}
       alt="音楽を囲む時間"
